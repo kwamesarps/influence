@@ -7,8 +7,61 @@ import 'package:influence/screens/imageViewer.dart';
 String? img;
 String? picture;
 String? name;
-String desc() {
-  return '';
+ListView desc() {
+  var pict = {
+    'ali': ListView(
+      shrinkWrap: true,
+      children: <Widget>[
+        Text('Photographer', style: TextStyle(fontFamily: 'Neoteric', fontWeight: FontWeight.bold, fontSize: 20),
+        ),
+        Text(''),
+        Row(
+          children:<Widget>[
+            Flexible(
+              child: Column(
+                children: <Widget>[
+                  Text('FOLLOWERS',style: TextStyle(fontFamily: 'Sen', color: Colors.black12, fontWeight: FontWeight.bold, fontSize: 13)),
+                  Text('19M', style: TextStyle(
+                    fontFamily: 'CLB',
+                    fontWeight: FontWeight.bold,
+                    color: Color(0xffe5958e),
+                  ),),
+                ],
+              ),
+            ),
+            Flexible(
+              child: Column(
+                children: <Widget>[
+                  Text('ALL TIME VIEWS', style: TextStyle(fontFamily: 'Sen', color: Colors.black12, fontWeight: FontWeight.bold, fontSize: 13),),
+                  Text('198M', style: TextStyle(
+                    fontFamily: 'CLB',
+                    fontWeight: FontWeight.bold,
+                    color: Color(0xffe5958e),
+                  ),),
+                ],
+              ),
+            ),
+          ]
+        ),
+      ],
+    ),
+    'kool': ListView(),
+    'polina': ListView(),
+    'waldir': ListView(),
+    'wesley': ListView(),
+  };
+
+
+  if (picture == 'ali') {
+    return pict['ali']!;
+  } else if (picture == 'kool') {
+    return pict['kool']!;
+  } else if (picture == 'polina') {
+    return pict['polina']!;
+  } else if (picture == 'waldir') {
+    return pict['waldir']!;
+  } else if (picture == 'wesley') return pict['wesley']!;
+  return ListView();
 }
 
 String description() {
@@ -81,9 +134,30 @@ String image_1() {
   var pict = {
     'ali': 'assets/ali_2.jpg',
     'kool': 'assets/kool_2.jpg',
-    'polina': 'assets/polina.jpg',
+    'polina': 'assets/polina_2.jpg',
     'waldir': 'assets/waldir.jpg',
     'wesley': 'assets/wesley_2.jpg'
+  };
+
+  if (picture == 'ali') {
+    return pict['ali']!;
+  } else if (picture == 'kool') {
+    return pict['kool']!;
+  } else if (picture == 'polina') {
+    return pict['polina']!;
+  } else if (picture == 'waldir') {
+    return pict['waldir']!;
+  } else if (picture == 'wesley') return pict['wesley']!;
+  return '';
+}
+
+String image_2() {
+  var pict = {
+    'ali': 'assets/ali_3.jpg',
+    'kool': 'assets/kool_3.jpg',
+    'polina': 'assets/polina_3.jpg',
+    'waldir': 'assets/waldir_3.jpg',
+    'wesley': 'assets/wesley_3.jpg'
   };
 
   if (picture == 'ali') {
@@ -169,6 +243,11 @@ class Controller extends StatelessWidget {
                                   ),
                                 ),
                               ),
+                              Padding(
+                                padding: (EdgeInsets.only(left: 20)),
+                                child: desc(),
+                              ),
+
                             ],
                           ),
                         )
@@ -247,6 +326,28 @@ class Controller extends StatelessWidget {
                                       ),
                                       onTap: () {
                                         img = 'image_1';
+                                        Navigator.push(
+                                            context,
+                                            MaterialPageRoute(
+                                                builder: (context) =>
+                                                    ImageViewer()));
+                                      },
+                                    ),
+                                    GestureDetector(
+                                      child: Container(
+                                        width: 100,
+                                        height: 100,
+                                        decoration: BoxDecoration(
+                                          borderRadius:
+                                          BorderRadius.circular(14),
+                                          image: DecorationImage(
+                                            image: AssetImage(image_2()),
+                                            fit: BoxFit.cover,
+                                          ),
+                                        ),
+                                      ),
+                                      onTap: () {
+                                        img = 'image_2';
                                         Navigator.push(
                                             context,
                                             MaterialPageRoute(

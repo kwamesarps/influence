@@ -63,10 +63,20 @@ flutter:
     - family: 'Catamaran'
       fonts:
         - asset: 'assets/fonts/Catamaran.ttf'
+
+
     - family: 'Neoteric'
       fonts:
         - asset: 'assets/fonts/NEOTERIC_B.ttf'
         - asset: 'assets/fonts/NEOTERIC_R.ttf'
+
+    - family: 'Champagne'
+      fonts:
+        - asset: 'assets/fonts/CL.ttf'
+
+    - family: 'ChampagneBold'
+      fonts:
+        - asset: 'assets/fonts/CLB.ttf'
 
     - family: 'Sen'
       fonts:

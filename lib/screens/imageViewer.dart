@@ -10,6 +10,9 @@ String imageChooser(){
   else if( img == 'image_1'){
     return image_1();
   }
+  else if( img == 'image_2'){
+    return image_2();
+  }
 
   return '';
 }
