@@ -62,6 +62,13 @@ class ProfileClass extends State<Profile>{
                 onTap: _openImagePicker,
               ),
             ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+
+
+
           ],
         ),
       ),

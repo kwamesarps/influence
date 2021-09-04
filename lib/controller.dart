@@ -8,6 +8,254 @@ String? picture;
 String? name;
 ListView desc() {
   var pict = {
+    'influencer': ListView(
+      shrinkWrap: true,
+      children: <Widget>[
+        Text(
+          'PHOTOGRAPHER & SINGER',
+          style: TextStyle(
+              fontFamily: 'Neoteric',
+              fontWeight: FontWeight.bold,
+              fontSize: 20),
+        ),
+        Text(
+            'I am an energetic person who has developed a mature and responsible approach to any task that I undertake or situation that I am presented with. As  young guy, I am excellent in working with others to achieve a certain objective on time and with excellence. Singer || Photographer'),
+        Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text('FOLLOWERS',
+                        style: TextStyle(
+                            fontFamily: 'Sen',
+                            color: Colors.black54,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 13)),
+                    Text(
+                      '19M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text(
+                      'ALL TIME VIEWS',
+                      style: TextStyle(
+                          fontFamily: 'Sen',
+                          color: Colors.black54,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 13),
+                    ),
+                    Text(
+                      '198M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ]),
+      ],
+    ),
+    'influencer_1': ListView(
+      shrinkWrap: true,
+      children: <Widget>[
+        Text(
+          'PHOTOGRAPHER & SINGER',
+          style: TextStyle(
+              fontFamily: 'Neoteric',
+              fontWeight: FontWeight.bold,
+              fontSize: 20),
+        ),
+        Text(
+            'I am an energetic person who has developed a mature and responsible approach to any task that I undertake or situation that I am presented with. As  young guy, I am excellent in working with others to achieve a certain objective on time and with excellence. Singer || Photographer'),
+        Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text('FOLLOWERS',
+                        style: TextStyle(
+                            fontFamily: 'Sen',
+                            color: Colors.black54,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 13)),
+                    Text(
+                      '19M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text(
+                      'ALL TIME VIEWS',
+                      style: TextStyle(
+                          fontFamily: 'Sen',
+                          color: Colors.black54,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 13),
+                    ),
+                    Text(
+                      '198M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ]),
+      ],
+    ),
+    'influencer_2': ListView(
+      shrinkWrap: true,
+      children: <Widget>[
+        Text(
+          'PHOTOGRAPHER & SINGER',
+          style: TextStyle(
+              fontFamily: 'Neoteric',
+              fontWeight: FontWeight.bold,
+              fontSize: 20),
+        ),
+        Text(
+            'I am an energetic person who has developed a mature and responsible approach to any task that I undertake or situation that I am presented with. As  young guy, I am excellent in working with others to achieve a certain objective on time and with excellence. Singer || Photographer'),
+        Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text('FOLLOWERS',
+                        style: TextStyle(
+                            fontFamily: 'Sen',
+                            color: Colors.black54,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 13)),
+                    Text(
+                      '19M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text(
+                      'ALL TIME VIEWS',
+                      style: TextStyle(
+                          fontFamily: 'Sen',
+                          color: Colors.black54,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 13),
+                    ),
+                    Text(
+                      '198M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ]),
+      ],
+    ),
+    'influencer_3': ListView(
+      shrinkWrap: true,
+      children: <Widget>[
+        Text(
+          'PHOTOGRAPHER & SINGER',
+          style: TextStyle(
+              fontFamily: 'Neoteric',
+              fontWeight: FontWeight.bold,
+              fontSize: 20),
+        ),
+        Text(
+            'I am an energetic person who has developed a mature and responsible approach to any task that I undertake or situation that I am presented with. As  young guy, I am excellent in working with others to achieve a certain objective on time and with excellence. Singer || Photographer'),
+        Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text('FOLLOWERS',
+                        style: TextStyle(
+                            fontFamily: 'Sen',
+                            color: Colors.black54,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 13)),
+                    Text(
+                      '19M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text(
+                      'ALL TIME VIEWS',
+                      style: TextStyle(
+                          fontFamily: 'Sen',
+                          color: Colors.black54,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 13),
+                    ),
+                    Text(
+                      '198M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ]),
+      ],
+    ),
     'ali': ListView(
       shrinkWrap: true,
       children: <Widget>[
@@ -18,7 +266,8 @@ ListView desc() {
               fontWeight: FontWeight.bold,
               fontSize: 20),
         ),
-        Text('I am an energetic person who has developed a mature and responsible approach to any task that I undertake or situation that I am presented with. As  young guy, I am excellent in working with others to achieve a certain objective on time and with excellence. Singer || Photographer'),
+        Text(
+            'I am an energetic person who has developed a mature and responsible approach to any task that I undertake or situation that I am presented with. As  young guy, I am excellent in working with others to achieve a certain objective on time and with excellence. Singer || Photographer'),
         Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
@@ -141,7 +390,8 @@ ListView desc() {
               fontWeight: FontWeight.bold,
               fontSize: 20),
         ),
-        Text('Polina is a Broadcast Journalist with expertise in News Writing, Presenting, Conducting Interviews and Public Speaking Exceptional host who has steered all major shows in America for more than 5years. Amazing event organizer with countless successfully executed events'),
+        Text(
+            'Polina is a Broadcast Journalist with expertise in News Writing, Presenting, Conducting Interviews and Public Speaking Exceptional host who has steered all major shows in America for more than 5years. Amazing event organizer with countless successfully executed events'),
         Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
@@ -202,7 +452,8 @@ ListView desc() {
               fontWeight: FontWeight.bold,
               fontSize: 20),
         ),
-        Text('I am an actress who has been a part of more then 100 indy productions including films, commercials, web series, music videos and industrials. I would love to work with you too! Specialties: Intense emotions, heavy scenes'),
+        Text(
+            'I am an actress who has been a part of more then 100 indy productions including films, commercials, web series, music videos and industrials. I would love to work with you too! Specialties: Intense emotions, heavy scenes'),
         Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
@@ -263,7 +514,8 @@ ListView desc() {
               fontWeight: FontWeight.bold,
               fontSize: 20),
         ),
-        Text('Simply proactive and strive to be at the best side of everything'),
+        Text(
+            'Simply proactive and strive to be at the best side of everything'),
         Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
@@ -318,6 +570,14 @@ ListView desc() {
 
   if (picture == 'ali') {
     return pict['ali']!;
+  } else if (picture == 'influencer') {
+    return pict['influencer']!;
+  } else if (picture == 'influencer') {
+    return pict['influencer_1']!;
+  } else if (picture == 'influencer') {
+    return pict['influencer_2']!;
+  } else if (picture == 'influencer') {
+    return pict['influencer_3']!;
   } else if (picture == 'kool') {
     return pict['kool']!;
   } else if (picture == 'polina') {
@@ -330,6 +590,10 @@ ListView desc() {
 
 String description() {
   var name = {
+    'influencer': 'Reya',
+    'influencer_1': '',
+    'influencer_2': '',
+    'influencer_3': '',
     'ali': 'Ali',
     'kool': 'Kool',
     'polina': 'Polina',
@@ -341,6 +605,14 @@ String description() {
     return name['ali']!;
   } else if (picture == 'kool') {
     return name['kool']!;
+  } else if (picture == 'influencer') {
+    return name['influencer']!;
+  } else if (picture == 'influencer_1') {
+    return name['influencer_1']!;
+  } else if (picture == 'influencer_2') {
+    return name['influencer_2']!;
+  } else if (picture == 'influencer_3') {
+    return name['influencer_3']!;
   } else if (picture == 'polina') {
     return name['polina']!;
   } else if (picture == 'waldir') {
@@ -379,17 +651,31 @@ String image() {
     'kool': 'assets/kool.jpg',
     'polina': 'assets/polina.jpg',
     'waldir': 'assets/waldir_1.jpg',
-    'wesley': 'assets/wesley.jpg'
+    'wesley': 'assets/wesley.jpg',
+    'influencer': 'assets/influencer.jpg',
+    'influencer_1': 'assets/influencer_1.jpg',
+    'influencer_2': 'assets/influencer_2.jpg',
+    'influencer_3': 'assets/influencer_3.jpg',
   };
 
   if (picture == 'ali') {
     return pict['ali']!;
   } else if (picture == 'kool') {
     return pict['kool']!;
+  } else if (picture == 'influencer') {
+    return pict['influencer']!;
   } else if (picture == 'polina') {
     return pict['polina']!;
   } else if (picture == 'waldir') {
     return pict['waldir']!;
+  } else if (picture == 'influencer') {
+    return pict['influencer']!;
+  } else if (picture == 'influencer_1') {
+    return pict['influencer_1']!;
+  } else if (picture == 'influencer_2') {
+    return pict['influencer_2']!;
+  } else if (picture == 'influencer_3') {
+    return pict['influencer_3']!;
   } else if (picture == 'wesley') return pict['wesley']!;
   return '';
 }
