@@ -12,14 +12,13 @@ ListView desc() {
       shrinkWrap: true,
       children: <Widget>[
         Text(
-          'PHOTOGRAPHER & SINGER',
+          'Entrepreneur',
           style: TextStyle(
               fontFamily: 'Neoteric',
               fontWeight: FontWeight.bold,
               fontSize: 20),
         ),
-        Text(
-            'I am an energetic person who has developed a mature and responsible approach to any task that I undertake or situation that I am presented with. As  young guy, I am excellent in working with others to achieve a certain objective on time and with excellence. Singer || Photographer'),
+        Text('I am an entrepreneur looking to revolutionize Africa with Technology. For so long weʼve been crippled mentally, to a stage where we hardly find any motivation to build our own future; time for a change.'),
         Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
@@ -80,8 +79,7 @@ ListView desc() {
               fontWeight: FontWeight.bold,
               fontSize: 20),
         ),
-        Text(
-            'I am an energetic person who has developed a mature and responsible approach to any task that I undertake or situation that I am presented with. As  young guy, I am excellent in working with others to achieve a certain objective on time and with excellence. Singer || Photographer'),
+        Text('Works as an Affiliate Marketer, Website Designer, SEO Optimization, Car GPS Tracker, & many more ITrelated GhanaDaily is fostering Ghana's growth through relevant media, this is achieved by creating and curating insightful content and news that is about Ghana and Ghanaians.'),
         Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
@@ -142,8 +140,7 @@ ListView desc() {
               fontWeight: FontWeight.bold,
               fontSize: 20),
         ),
-        Text(
-            'I am an energetic person who has developed a mature and responsible approach to any task that I undertake or situation that I am presented with. As  young guy, I am excellent in working with others to achieve a certain objective on time and with excellence. Singer || Photographer'),
+        Text('Event coverage in High Definition Video Production and Digital Photography for News, Fashion, Events Corporate,social,academic,advertising,modeling Corporate Communications consulting, PR, Media.'),
         Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
@@ -194,18 +191,17 @@ ListView desc() {
             ]),
       ],
     ),
-    'influencer_3': ListView(
+    'influence_3': ListView(
       shrinkWrap: true,
       children: <Widget>[
         Text(
-          'PHOTOGRAPHER & SINGER',
+          'System Engineer',
           style: TextStyle(
               fontFamily: 'Neoteric',
               fontWeight: FontWeight.bold,
               fontSize: 20),
         ),
-        Text(
-            'I am an energetic person who has developed a mature and responsible approach to any task that I undertake or situation that I am presented with. As  young guy, I am excellent in working with others to achieve a certain objective on time and with excellence. Singer || Photographer'),
+        Text('Lauren has been an effective brand ambassador for AT&T, Microsoft, Lionsgate, Rockstar Games, and more. She excels at leveraging her audience and unique personality to consistently deliver successful campaigns with high engagement.'),
         Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
@@ -256,7 +252,7 @@ ListView desc() {
             ]),
       ],
     ),
-    'ali': ListView(
+    'Ali': ListView(
       shrinkWrap: true,
       children: <Widget>[
         Text(
@@ -380,7 +376,7 @@ ListView desc() {
             ]),
       ],
     ),
-    'polina': ListView(
+    'Polina': ListView(
       shrinkWrap: true,
       children: <Widget>[
         Text(
