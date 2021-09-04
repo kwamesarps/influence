@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:influence/screens/imageViewer.dart';
@@ -19,19 +18,7 @@ ListView desc() {
               fontWeight: FontWeight.bold,
               fontSize: 20),
         ),
-        Text('I am an energetic person
-who has developed a
-mature and responsible
-approach to any task that
-I undertake or situation
-that I am presented with.
-As a young guy, I am
-excellent in working with
-others to achieve a
-certain objective on time
-and with excellence.
-Singer ||
-Photographer'),
+        Text('I am an energetic person who has developed a mature and responsible approach to any task that I undertake or situation that I am presented with. As  young guy, I am excellent in working with others to achieve a certain objective on time and with excellence. Singer || Photographer'),
         Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
@@ -92,14 +79,8 @@ Photographer'),
               fontWeight: FontWeight.bold,
               fontSize: 20),
         ),
-        Text('Confident quirky
-informative individual
-with a range of
-cominication skills i have
-worked in a vast range of
-industrys for a few years .
-I have a large portfolio in
-modelling feild '),
+        Text('Confident quirky informative individual '
+            'with a range of cominication skills i have worked in a vast range of industries for a few years. I have a large portfolio in modelling feild'),
         Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
@@ -160,20 +141,7 @@ modelling feild '),
               fontWeight: FontWeight.bold,
               fontSize: 20),
         ),
-        Text('Polina is a
-Broadcast Journalist with
-expertise in News
-Writing, Presenting,
-Conducting Interviews
-and Public Speaking
-Exceptional host who has
-steered all major shows
-in America for more than
-5years.
-Amazing event organizer
-with countless
-successfully executed
-events'),
+        Text('Polina is a Broadcast Journalist with expertise in News Writing, Presenting, Conducting Interviews and Public Speaking Exceptional host who has steered all major shows in America for more than 5years. Amazing event organizer with countless successfully executed events'),
         Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
@@ -234,18 +202,7 @@ events'),
               fontWeight: FontWeight.bold,
               fontSize: 20),
         ),
-        Text('I am an actress who has
-been a part of more then
-100 indy productions
-including films,
-commercials, web series,
-music videos and
-industrials.
-I would love to work with
-you too!
-Specialties: Intense 
-emotions, heavy scenes 
-'),
+        Text('I am an actress who has been a part of more then 100 indy productions including films, commercials, web series, music videos and industrials. I would love to work with you too! Specialties: Intense emotions, heavy scenes'),
         Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
@@ -306,9 +263,7 @@ emotions, heavy scenes
               fontWeight: FontWeight.bold,
               fontSize: 20),
         ),
-        Text('Simply proactive and
-strive to be at the best
-side of everything'),
+        Text('Simply proactive and strive to be at the best side of everything'),
         Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
