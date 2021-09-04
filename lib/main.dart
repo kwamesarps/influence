@@ -3,6 +3,7 @@ import 'package:influence/screens/homepage.dart';
 import 'package:influence/screens/influencers.dart';
 import 'package:influence/screens/intro.dart';
 import 'package:influence/screens/signUpPage.dart';
+import 'package:influence/screens/about.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
         '/homepage': (context) => HomePage(),
         '/signup' : (context) => SignUpPage(),
         '/influencers' : (context) => Influencers(),
+        '/about' : (context) => About(),
       },
     );
   }

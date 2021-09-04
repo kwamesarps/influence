@@ -12,45 +12,309 @@ ListView desc() {
     'ali': ListView(
       shrinkWrap: true,
       children: <Widget>[
-        Text('Photographer', style: TextStyle(fontFamily: 'Neoteric', fontWeight: FontWeight.bold, fontSize: 20),
+        Text(
+          'PHOTOGRAPHER & SINGER',
+          style: TextStyle(
+              fontFamily: 'Neoteric',
+              fontWeight: FontWeight.bold,
+              fontSize: 20),
         ),
         Text(''),
         Row(
-          children:<Widget>[
-            Flexible(
-              child: Column(
-                children: <Widget>[
-                  Text('FOLLOWERS',style: TextStyle(fontFamily: 'Sen', color: Colors.black12, fontWeight: FontWeight.bold, fontSize: 13)),
-                  Text('19M', style: TextStyle(
-                    fontFamily: 'CLB',
-                    fontWeight: FontWeight.bold,
-                    color: Color(0xffe5958e),
-                  ),),
-                ],
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text('FOLLOWERS',
+                        style: TextStyle(
+                            fontFamily: 'Sen',
+                            color: Colors.black54,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 13)),
+                    Text(
+                      '19M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
               ),
-            ),
-            Flexible(
-              child: Column(
-                children: <Widget>[
-                  Text('ALL TIME VIEWS', style: TextStyle(fontFamily: 'Sen', color: Colors.black12, fontWeight: FontWeight.bold, fontSize: 13),),
-                  Text('198M', style: TextStyle(
-                    fontFamily: 'CLB',
-                    fontWeight: FontWeight.bold,
-                    color: Color(0xffe5958e),
-                  ),),
-                ],
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text(
+                      'ALL TIME VIEWS',
+                      style: TextStyle(
+                          fontFamily: 'Sen',
+                          color: Colors.black54,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 13),
+                    ),
+                    Text(
+                      '198M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
               ),
-            ),
-          ]
-        ),
+            ]),
       ],
     ),
-    'kool': ListView(),
-    'polina': ListView(),
-    'waldir': ListView(),
-    'wesley': ListView(),
+    'kool': ListView(
+      shrinkWrap: true,
+      children: <Widget>[
+        Text(
+          'Model',
+          style: TextStyle(
+              fontFamily: 'Neoteric',
+              fontWeight: FontWeight.bold,
+              fontSize: 20),
+        ),
+        Text(''),
+        Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text('FOLLOWERS',
+                        style: TextStyle(
+                            fontFamily: 'Sen',
+                            color: Colors.black54,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 13)),
+                    Text(
+                      '9M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text(
+                      'ALL TIME VIEWS',
+                      style: TextStyle(
+                          fontFamily: 'Sen',
+                          color: Colors.black54,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 13),
+                    ),
+                    Text(
+                      '17M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ]),
+      ],
+    ),
+    'polina': ListView(
+      shrinkWrap: true,
+      children: <Widget>[
+        Text(
+          'Model',
+          style: TextStyle(
+              fontFamily: 'Neoteric',
+              fontWeight: FontWeight.bold,
+              fontSize: 20),
+        ),
+        Text(''),
+        Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text('FOLLOWERS',
+                        style: TextStyle(
+                            fontFamily: 'Sen',
+                            color: Colors.black54,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 13)),
+                    Text(
+                      '207K',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text(
+                      'ALL TIME VIEWS',
+                      style: TextStyle(
+                          fontFamily: 'Sen',
+                          color: Colors.black54,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 13),
+                    ),
+                    Text(
+                      '18M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ]),
+      ],
+    ),
+    'waldir': ListView(
+      shrinkWrap: true,
+      children: <Widget>[
+        Text(
+          'Caterer',
+          style: TextStyle(
+              fontFamily: 'Neoteric',
+              fontWeight: FontWeight.bold,
+              fontSize: 20),
+        ),
+        Text(''),
+        Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text('FOLLOWERS',
+                        style: TextStyle(
+                            fontFamily: 'Sen',
+                            color: Colors.black54,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 13)),
+                    Text(
+                      '21M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text(
+                      'ALL TIME VIEWS',
+                      style: TextStyle(
+                          fontFamily: 'Sen',
+                          color: Colors.black54,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 13),
+                    ),
+                    Text(
+                      '157M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ]),
+      ],
+    ),
+    'wesley': ListView(
+      shrinkWrap: true,
+      children: <Widget>[
+        Text(
+          'Professional Player',
+          style: TextStyle(
+              fontFamily: 'Neoteric',
+              fontWeight: FontWeight.bold,
+              fontSize: 20),
+        ),
+        Text(''),
+        Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text('FOLLOWERS',
+                        style: TextStyle(
+                            fontFamily: 'Sen',
+                            color: Colors.black54,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 13)),
+                    Text(
+                      '10M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Text(
+                      'ALL TIME VIEWS',
+                      style: TextStyle(
+                          fontFamily: 'Sen',
+                          color: Colors.black54,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 13),
+                    ),
+                    Text(
+                      '120M',
+                      style: TextStyle(
+                        fontFamily: 'CLB',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Color(0xffF9A620),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ]),
+      ],
+    ),
   };
-
 
   if (picture == 'ali') {
     return pict['ali']!;
@@ -244,10 +508,9 @@ class Controller extends StatelessWidget {
                                 ),
                               ),
                               Padding(
-                                padding: (EdgeInsets.only(left: 20)),
+                                padding: EdgeInsets.fromLTRB(20, 10, 20, 0),
                                 child: desc(),
                               ),
-
                             ],
                           ),
                         )
@@ -261,7 +524,7 @@ class Controller extends StatelessWidget {
                       children: <Widget>[
                         Container(
                           width: 270,
-                          height: 320,
+                          // height: 320,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(20),
                             color: Colors.white,
@@ -339,7 +602,7 @@ class Controller extends StatelessWidget {
                                         height: 100,
                                         decoration: BoxDecoration(
                                           borderRadius:
-                                          BorderRadius.circular(14),
+                                              BorderRadius.circular(14),
                                           image: DecorationImage(
                                             image: AssetImage(image_2()),
                                             fit: BoxFit.cover,
