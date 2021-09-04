@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "902963754785",
+    "project_id": "influence-7fde1",
+    "storage_bucket": "influence-7fde1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902963754785:android:8991d0861d8db5da397060",
+        "android_client_info": {
+          "package_name": "com.example.influence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902963754785-q0joak5hpcjv58tkt7gt8ocnjk0kahkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGMgaAh5FUeZ3SPPIC8KWfuyFoa4vRqUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902963754785-q0joak5hpcjv58tkt7gt8ocnjk0kahkf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

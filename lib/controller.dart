@@ -572,11 +572,11 @@ ListView desc() {
     return pict['ali']!;
   } else if (picture == 'influencer') {
     return pict['influencer']!;
-  } else if (picture == 'influencer') {
+  } else if (picture == 'influencer_1') {
     return pict['influencer_1']!;
-  } else if (picture == 'influencer') {
+  } else if (picture == 'influencer_2') {
     return pict['influencer_2']!;
-  } else if (picture == 'influencer') {
+  } else if (picture == 'influencer_3') {
     return pict['influencer_3']!;
   } else if (picture == 'kool') {
     return pict['kool']!;
@@ -591,9 +591,9 @@ ListView desc() {
 String description() {
   var name = {
     'influencer': 'Reya',
-    'influencer_1': '',
-    'influencer_2': '',
-    'influencer_3': '',
+    'influencer_1': 'Felicity',
+    'influencer_2': 'Sunshine',
+    'influencer_3': 'Esther',
     'ali': 'Ali',
     'kool': 'Kool',
     'polina': 'Polina',

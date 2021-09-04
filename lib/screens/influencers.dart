@@ -91,7 +91,7 @@ class Influencers extends StatelessWidget {
                   height: 180,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage('assets/influencer1.jpg'),
+                      image: AssetImage('assets/influencer.jpg'),
                       fit: BoxFit.cover,
                     ),
                     borderRadius: BorderRadius.circular(20),
@@ -102,7 +102,7 @@ class Influencers extends StatelessWidget {
                         bottom: 5,
                         left: 10,
                         child: Text(
-                          'kOoL',
+                          'rEYa',
                           style: TextStyle(
                             fontFamily: 'satisfy',
                             color: Colors.white,
@@ -224,6 +224,78 @@ class Influencers extends StatelessWidget {
               ),
               onTap: () {
                 picture = 'polina';
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Controller()));
+              },
+            ),
+            GestureDetector(
+              child: Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                child: Container(
+                  height: 180,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      image: AssetImage('assets/influencer_1.jpg'),
+                      fit: BoxFit.cover,
+                    ),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: Stack(
+                    children: <Widget>[
+                      Positioned(
+                        bottom: 5,
+                        left: 10,
+                        child: Text(
+                          'fEliCiTy',
+                          style: TextStyle(
+                            fontFamily: 'satisfy',
+                            color: Colors.white,
+                            fontSize: 30,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              onTap: () {
+                picture = 'influencer_1';
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Controller()));
+              },
+            ),
+            GestureDetector(
+              child: Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                child: Container(
+                  height: 180,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      image: AssetImage('assets/influencer_2.jpg'),
+                      fit: BoxFit.cover,
+                    ),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: Stack(
+                    children: <Widget>[
+                      Positioned(
+                        bottom: 5,
+                        left: 10,
+                        child: Text(
+                          'suNsHiNe',
+                          style: TextStyle(
+                            fontFamily: 'satisfy',
+                            color: Colors.white,
+                            fontSize: 30,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              onTap: () {
+                picture = 'influencer_2';
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Controller()));
               },

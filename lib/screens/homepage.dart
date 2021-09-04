@@ -375,7 +375,7 @@ class EditProfilePicture extends State<HomePage> {
                               right: 0,
                               bottom: 20,
                               child: TextButton(
-                                child: Text('Sunshine Cromwell',
+                                child: Text('Esther Woods',
                                     style: TextStyle(
                                       fontFamily: 'Sen',
                                       fontSize: 15,
